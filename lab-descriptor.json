@@ -11,56 +11,63 @@
     "baseUrl": "afl1-iiith.vlabs.ac.in",
     "introduction": "Automata and Formal Languages - I introduces the foundational models of computation, beginning with finite automata and regular languages. Students explore how abstract machines recognize patterns and process strings, establishing the theoretical basis for lexical analysis, pattern matching, and text processing in compilers and software systems. Through interactive experiments, learners build intuition for deterministic and nondeterministic computation, mastering the equivalence between different representations of regular languages. The progression from simple string acceptance to automata conversions and minimization develops both theoretical understanding and practical skills in designing efficient recognizers. Pushdown automata and context-free grammars extend these concepts to hierarchical structures, preparing students for parsing techniques essential in programming language design.",
     "experiments": [
-        {
-            "name": "Equivalence of PDA and CFG",
-            "short-name": "equivalence-pda-cfg",
-            "repo": "https://github.com/virtual-labs/exp-equivalence-pa-cfg-iiith",
-            "tag": "v1.0.0",
-            "deploy": true
-        },
-        {
-            "name": "Demonstration of Ambiguity with Context-Free Grammars",
-            "short-name": "ambiguity-cfg",
-            "repo": "https://github.com/virtual-labs/exp-demonstration-of-ambiguity-iiith",
-            "tag": "v1.0.0",
-            "deploy": true
-        },
-        {
-            "name": "CYK Algorithm",
-            "short-name": "cyk-algorithm",
-            "repo": "https://github.com/virtual-labs/exp-cyk-algorithm-iiith",
-            "tag": "v1.0.0",
-            "deploy": true
-        },
-        {
-            "name": "Acceptance by Deterministic Turing Machine",
-            "short-name": "dtm-acceptance",
-            "repo": "https://github.com/virtual-labs/exp-deterministic-turing-machine-iiith",
-            "tag": "v1.0.0",
-            "deploy": true
-        },
-        {
-            "name": "Acceptance by Non-deterministic Turing Machine",
-            "short-name": "ndtm-acceptance",
-            "repo": "https://github.com/virtual-labs/exp-non-deterministic-turing-machine-iiith",
-            "tag": "v1.0.0",
-            "deploy": true
-        },
-        {
-            "name": "Equivalence of 2-Stack PDA and DTM",
-            "short-name": "equivalence-2stack-pda-dtm",
-            "repo": "https://github.com/virtual-labs/exp-equivalence-pda-dtm-iiith",
-            "tag": "v1.0.0",
-            "deploy": true
-        },
-        {
-            "name": "Pumping Lemma for CFGs and RL",
-            "short-name": "pumping-lemma-cfg-rl",
-            "repo": "https://github.com/virtual-labs/exp-pumping-lemma-cf-rl-iiith",
-            "tag": "v1.0.0",
-            "deploy": true
-        }
-    ],
+  {
+    "name": "Language acceptance for Deterministic Finite Automaton (DFA)",
+    "short-name": "dfa-acceptance",
+    "repo": "https://github.com/virtual-labs/exp-determinstic-finite-automaton-iiith",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Language acceptance for NFAs",
+    "short-name": "nfa-acceptance",
+    "repo": "https://github.com/virtual-labs/exp-non-determinstic-finite-automaton-iiith",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Converting NFA to DFA",
+    "short-name": "nfa-to-dfa",
+    "repo": "https://github.com/virtual-labs/exp-nfa-to-dfa-iiith",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Converting Regular Expression to NFA",
+    "short-name": "re-to-nfa",
+    "repo": "https://github.com/virtual-labs/exp-converting-regular-expression-iiith",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Conversion from NFA to RE",
+    "short-name": "nfa-to-re",
+    "repo": "https://github.com/virtual-labs/exp-conversion-nfa-re-iiith",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "DFA Minimization and Equivalence",
+    "short-name": "dfa-minimization-equivalence",
+    "repo": "https://github.com/virtual-labs/exp-dfa-minimization-equivalence-iiith",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Acceptance of string by Pushdown Automaton",
+    "short-name": "pda-acceptance",
+    "repo": "https://github.com/virtual-labs/exp-pushdown-automaton-iiith",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Derivation from a Context-Free Grammar",
+    "short-name": "cfg-derivation",
+    "repo": "https://github.com/virtual-labs/exp-context-free-grammar-iiith",
+    "tag": "v1.0.0",
+    "deploy": true
+  }
+],
     "targetAudience": {
         "UG": [
             "3rd Year (5th semester)"
